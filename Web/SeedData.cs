@@ -34,17 +34,17 @@ public static class SeedData
             var item3 = quizItemRepo?.Add(new QuizItem()
             {
                 Id = 3,
-                CorrectAnswer = "6",
-                Question = "3 + 3",
-                IncorrectAnswers = new List<string>() { "2", "3", "4" }
+                CorrectAnswer = "Toruń",
+                Question = "Dostępu do morza nie ma?",
+                IncorrectAnswers = new List<string>() { "Gdynia", "Gdańsk", "Kołobrzeg" }
             });
 
             var item4 = quizItemRepo?.Add(new QuizItem()
             {
                 Id = 4,
-                CorrectAnswer = "2",
-                Question = "1 * 2",
-                IncorrectAnswers = new List<string>() { "10", "6", "4" }
+                CorrectAnswer = "Morze Bałtyckie",
+                Question = "Do jakiego morza dostęp ma Polska?",
+                IncorrectAnswers = new List<string>() { "Morze Czarne", "Morze Egejskie", "Morze Martwe" }
             });
 
             quizRepo?.Add(new Quiz()
